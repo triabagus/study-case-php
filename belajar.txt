@@ -1,0 +1,48 @@
+LINK :  - phpfiddle.org
+link good php :
+        - phpbestpractices.org
+        - phptherightway.com
+link framework laravel :
+        - laracast.com (buy)
+        - documentasi ->menerapin service provider , container
+* belajar framework , belajar documentasi agar coding jadi bagus
+
+question :  - rating = logika -> jumlah orang yang mengasih rating dengan orang yang rating
+            - link download php , mudah tidak ribet script nya tinggal ambil link yang akan didownload .
+            
+PHP
+1. client side
+
+2. server side
+
+OPERATOR
+    === variable type data nya juga
+    == variable
+STATEMENT
+    if
+    elseif
+    else
+
+    switch
+        case
+        break
+
+DATA TYPE
+    string
+    numeric = int , float
+    boolean = true , false
+    array = biasa , objek
+    objek
+    null = bukan 0 tapi BUG
+        exp:
+            <?php
+                $empty = NULL;
+                $str='';
+                    if($empty === NULL) atau is_null($empty)  -> mengecek null atau tidak
+
+                    if($str == NULL)
+            ?>
+Class
+    return $this ; didlm class -> mencangkup semua class
+
+jangan lupa semicolon ; 
