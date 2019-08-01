@@ -1,0 +1,17 @@
+{
+    "menu": [{
+            "product": "juz mangga",
+            "stock": 21,
+            "price": 12000,
+            "img": "mangga.jpeg",
+            "kategori": "mangga"
+        },
+        {
+            "product": "juz alpukat",
+            "stock": 20,
+            "price": 10000,
+            "img": "alpukat.jpeg",
+            "kategori": "alpukat"
+        }
+    ]
+}

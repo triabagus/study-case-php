@@ -1,0 +1,29 @@
+[{
+        "nama": "tria bagus",
+        "umur": 21,
+        "nrp": "new123",
+        "lulus": true,
+        "hobby": [
+            "coding",
+            "gaming"
+        ],
+        "pembimbing": {
+            "pembimbing1": "Ismed",
+            "pembimbing2": "Sigit"
+        }
+    },
+    {
+        "nama": "tria bagus",
+        "umur": 21,
+        "nrp": "new123",
+        "lulus": true,
+        "hobby": [
+            "coding",
+            "gaming"
+        ],
+        "pembimbing": {
+            "pembimbing1": "Ismed",
+            "pembimbing2": "Sigit"
+        }
+    }
+]
