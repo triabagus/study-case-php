@@ -21,6 +21,7 @@ $('.nav-link').on('click', function () {
         return;
     }
 
+
     $.getJSON('data/juz.json', function (data) {
         let menu = data.menu;
         let content = '';
@@ -30,7 +31,9 @@ $('.nav-link').on('click', function () {
                 content += '<div class="col-md-4"><div class="card"><img class="card-img-top" src="img/' + data.img + '"><div class="card-body"><h5 class="card-title">' + data.product + '</h5><h5 class="card-title">' + data.price + '</h5><p class="card-text">Stock = ' + data.stock + '. Some quick example text to build on the card title and make up the bulk of the cards content.</p><a href="#" class="btn btn-primary">Pesan</a></div></div></div>';
             }
         });
-        $("#daftar-menu").html(content);
+
+        $('#daftar-menu').html(content);
     });
+
 
 });
