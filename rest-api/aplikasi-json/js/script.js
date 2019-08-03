@@ -10,6 +10,7 @@ function tampilMenu() {
 tampilMenu();
 
 $('.nav-link').on('click', function () {
+    $('#daftar-menu').html('');
     $('.nav-link').removeClass('active');
     $(this).addClass('active');
 
