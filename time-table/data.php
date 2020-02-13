@@ -44,7 +44,7 @@ $timetable   = [
 
     [
         'Senin',
-        '10.00 - 11.00',
+        '08.00 - 09.00',
         'Guru 2',
         'Kelas 2',
         'Pelajaran 2'
@@ -114,7 +114,7 @@ $scheduleWhereGuru = [];
 foreach ($guru as $g) {
     // $scheduleWhereGuru[] = $g;  // guru
     foreach ($timetable as $tt) {
-        // $schedule[] = $tt[0];  // day in timetable
+        // $scheduleWhereGuru[] = $tt[0];  // day in timetable
         foreach($days as $x) {
             if ( $tt[0] == $x && $tt[2] == $g)
             {
